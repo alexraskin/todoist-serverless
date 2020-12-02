@@ -1,6 +1,9 @@
-# todoist-serverless
+Made with ❤ in Arizona
 
+# Todoist-Serverless-Task
 
-A basic serverless function to create a task in Todoist
+Create a task in Todoist using AWS Lambda
 
-_not created by, affiliated with, or supported by Doist_
+## Usage
+
+You will need an [API Key](https://github.com/Cosmitar/todoist-js/wiki/Getting-access-token) from Todoist. 
