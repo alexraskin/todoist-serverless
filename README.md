@@ -1,6 +1,4 @@
-Made with ❤ in Arizona
-
-# Todoist-Serverless-Task
+# todoist-serverless
 
 Create a task in Todoist using AWS Lambda
 
