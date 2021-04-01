@@ -19,7 +19,7 @@ class TodoTask:
             "Authorization": f"Bearer {api_key}"
         }
 
-    def requester(self) -> dict:
+    def create_task(self) -> dict:
         data = json.dumps({"content": self.content,
                            "due_string": self.due_string,
                            "due_lang": self.due_lang,
@@ -34,5 +34,4 @@ class TodoTask:
 
 
 def lambda_handler(event, context):
-    task = TodoTask("Hello from Lambda", 4).requester()
-    return task
+    return TodoTask("Hello from Lambda", 4).create_task()
